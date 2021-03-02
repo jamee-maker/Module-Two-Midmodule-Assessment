@@ -1,3 +1,24 @@
+// Smart goals for mid mod:
+
+// Identification: I did not use event listeners. Particularly on my button there is no click event listener nor is it in an form tag along with the input.
+// Smart goal: Use event listeners.
+
+// Identification: My history shows subsequent history but it does not show the first one like the gif does.
+// Smart goal: Fix the glitch.
+
+// Identification: My code only satisfies the requirements needed to pass the assessment and meet expectations.
+// Smart goal: Exceed expectations by adding extra features to my dice roll app, eg. stats tracker.
+
+// FYI I'm not done yet so this will get better.
+
+document.addEventListener("DOMContentLoaded", () => {
+  let form = document.getElementById("form");
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    data()
+  });
+});
+
 let sum = 0;
 let count = 0;
 

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A little game of chance</title>
-    <script src="main.js" defer></script>
+    <script src="main.js"></script>
     <style>
       #dice-para {
         font-size: 50px;
@@ -18,10 +18,12 @@
   </head>
   <body>
     <h1>Dice Roller</h1>
-    <label for="">Number of dice:</label>
-    <input type="number" id="diceinput" />
-    <br />
-    <button onclick="data()" id="roll" type="submit">Roll the dice!</button>
+    <form id="form">
+      <label for="">Number of dice:</label>
+      <input type="number" id="diceinput" />
+      <br />
+      <button onclick="data()" id="roll" type="submit">Roll the dice!</button>
+    </form>
     <br />
     <br />
     <br />
